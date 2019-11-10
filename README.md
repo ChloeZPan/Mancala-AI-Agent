@@ -50,7 +50,7 @@ To get the win/lose/draw rate, I run the program to play for 30 times. 30 is a s
 
 #### Minimax vs Random
 Table 1: Win/lose/draw rate of Minimax when against Random
-![image](https://github.com/ChloeZPan/Kalah-AI-Agent/blob/master/image/table1.png)
+![image](https://github.com/ChloeZPan/Kalah-AI-Agent/blob/master/image/Table1.png)
 
 From the table, we can see Minimax beats Random in most games no matter it is the first player or second player. However, the win rate of minimax decreases when it become the second player. It could be a first-choice bias.
 
