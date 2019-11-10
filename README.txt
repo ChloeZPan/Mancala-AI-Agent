@@ -75,11 +75,5 @@ start(player1_type, player2_type): start the game by entering two players
 (6) testing.py
 door to do tests
 testing(test_type, player1_type, player2_type): test_type(0 or 1, 0 is to calculate rate, 1 is to calculate time gap)
-
------------
-Author Info
------------
-Name: Zeyi Pan
-UR ID: 31633987
  
 
