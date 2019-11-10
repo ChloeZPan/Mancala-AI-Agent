@@ -5,4 +5,4 @@ The project is to design, implement and evaluate an AI bot to play a game named 
 ### 1. Program Design
 #### 1.1 Architecture
 In this game, we have three entities: players, gameboard and an operator. Players will have strategies to make the move. Here, we use an operator to help players to make move so that players are only thinking about what actions they should take. Gameboard will reflect the players’ moves based on the game rules (for example, moving counterclockwise, place the stones one by into the other cups on the board, one stone at a time and so on). We also need methods to calculate win/lose/draw rate and timing. According to the idea above, the program architecture will be:
-![image](http://github.com/ChloeZPan/Kalah-AI-Agent/edit/master/figure1.png)
+![image](http://github.com/ChloeZPan/Kalah-AI-Agent/edit/master/image/figure1.png)
