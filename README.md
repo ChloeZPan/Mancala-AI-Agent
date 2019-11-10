@@ -50,27 +50,27 @@ To get the win/lose/draw rate, I run the program to play for 30 times. 30 is a s
 
 #### Minimax vs Random
 Table 1: Win/lose/draw rate of Minimax when against Random
-![image](https://github.com/ChloeZPan/Kalah-AI-Agent/blob/master/image/table1.PNG)
+![image](https://github.com/ChloeZPan/Kalah-AI-Agent/blob/master/image/table1.png)
 
 From the table, we can see Minimax beats Random in most games no matter it is the first player or second player. However, the win rate of minimax decreases when it become the second player. It could be a first-choice bias.
 
 #### Minimax vs Alpha-Beta
 Table 2: Win/lose/draw rate of Minimax when against Alpha-Beta
-![image](https://github.com/ChloeZPan/Kalah-AI-Agent/blob/master/image/table2.PNG)
+![image](https://github.com/ChloeZPan/Kalah-AI-Agent/blob/master/image/table2.png)
 
 From the table, we can see Minimax and Alpha-beta pruning have almost the same perform when minimax is the first player. However, the win rate of minimax decreases when it becomes the second player. It could be a first-choice bias.
 
 #### 2.2 Computational Effectiveness of Alpha-beta Pruning
 To investigate the computational effectiveness of alpha-beta pruning, I played minimax against alpha-beta pruning for time times and get the time.
 Table 3: How much Alpha-Beta is faster than Minimax
-![image](https://github.com/ChloeZPan/Kalah-AI-Agent/blob/master/image/table3.PNG)
+![image](https://github.com/ChloeZPan/Kalah-AI-Agent/blob/master/image/table3.png)
 
 From the table, we can see Alpha-beta pruning is much faster than Minimax. This means pruning can effectively increase the speed of Alpha-Beta.
 
 #### 2.3 First-Choice Bias and Pie Rule
 To check if the first player has an advantage over the second player, I let these strategies implementation to against themselves. The results are as below.
 Table 4: Win/lose/draw rate when against itself
-![image](https://github.com/ChloeZPan/Kalah-AI-Agent/blob/master/image/table4.PNG)
+![image](https://github.com/ChloeZPan/Kalah-AI-Agent/blob/master/image/table4.png)
 
 From the table, we can see when Random vs Random, it is no advantage over the second player. When Minimax vs Minimax, the first player only has a slightly advantage. When alpha-beta vs alpha-beta, the win rate of first player is higher than the second player, but the gap is not huge. As the sample size is only run 30 times to get rates and repeat 10 times to get average, we cannot conclude we don’t have the first-choice bias. It requires further investigation.
 
@@ -96,9 +96,3 @@ The current minimax and alpha-beta pruning will only consider one of these best 
 
 How to decide where to cut-off?
 In the program, I set the depth to 5 as default in order to shorten the time for adversarial algorithms to make a decision. However, this will decrease the skill of both minimax and alpha-beta pruning. The problem is also related to the evaluation function one because you cannot directly compare the final results. Instead, you need to rely on your evaluation function.
-
-
-
-
-
-
