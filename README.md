@@ -9,6 +9,7 @@ In this game, we have three entities: players, gameboard and an operator. Player
 Figure 1: Architecture of the program
  
 The program has 5 class: player, gameboard, experiment, play and testing. 
+
 **Player.** It has 4 strategies and it needs to choose which strategy to use. Therefore, the choose move method is to take actions according to what strategy the player is using. 
 
 **Operator.** It takes the actions as a representative of player. It has two methods. Start play method will show the state after each player makes a move. Blind play method will not show the board visually. This method aims to get a result in testing more quickly. 
