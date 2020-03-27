@@ -93,6 +93,7 @@ The last but not the least, I learn the importance of patience and calm when you
 #### 3.2 Challenges
 How to choose a proper evaluation function?
 In the program, I choose the difference of the scores as the utility. However, there are other options. For example, the best move could be the one that will let you keep playing (always choose to put your last stone into your own store). The best move can also be the one that can get a “capture” (put the last stone into an empty pit and get your opponent’s stones). Also, the best move can be the one that let you put as many as possible stones on your side, and then let your opponent finishes the game first so that all stones on your side will be put into your store.
+
 The current minimax and alpha-beta pruning will only consider one of these best move options which is let the gap of the scores larger. In the last situation I mentioned above, it may not be an efficient way to beat your opponent. This is why the adversarial algorithms implementation here cannot always beat random player with an overwhelming score.
 
 How to decide where to cut-off?
